@@ -47,7 +47,37 @@ Após o comando, abra a URL exibida por Vite (padrão: http://localhost:5173).
 	- `main.jsx` — ponto de entrada
 	- `index.css` — estilos globais
 
-## Segunda Sprint — Resumo (11/11/2025)
+## Segunda Sprint — Resumo (até 18/11/2025)
+
+Principais entregas desta sprint:
+
+- **Navegação entre telas**: Implementação de rotas e navegação funcional entre as páginas da aplicação.
+  - Estrutura de navegação configurada para transição suave entre Home, Login, Register, Profile, Reservation, Cart e Configuration.
+  - Menu de navegação integrado no Header/NavBar para facilitar a experiência do usuário.
+
+- **Footer finalizado**: Conclusão do componente Footer com estrutura completa e estilos.
+  - Integração de informações de contato, links úteis e branding da Veneto.
+  - Responsividade adequada para diferentes tamanhos de tela.
+
+- **Responsividade**: Implementação de design responsivo em toda a aplicação.
+  - Media queries ajustadas para dispositivos móveis, tablets e desktops.
+  - Componentes adaptáveis (Header, NavBar, Footer, Cards de produtos).
+  - Layout flexível em todas as páginas principais.
+
+- **Tela de Login**: Desenvolvimento completo da página de Login.
+  - Formulário com campos para email/usuário e senha.
+  - Validação básica de entrada.
+  - Links para "Criar Conta" (Register) e "Recuperar Senha".
+  - Integração visual com o padrão de design da aplicação.
+
+**Arquivos principais atualizados/criados:**
+- `src/components/Header/Header.jsx` — navegação integrada
+- `src/components/Footer/Footer.jsx` — footer completo e responsivo
+- `src/PageComponents/LoginPage/Login.jsx` — tela de login com formulário
+- Ajustes em CSS para responsividade (Media queries em todos os componentes)
+- Rotas de navegação configuradas em `src/main.jsx`
+
+## Terceira Sprint — Próximos Passos
 
 Principais entregas desta sprint:
 
